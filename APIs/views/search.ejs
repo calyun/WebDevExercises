@@ -1,0 +1,13 @@
+<h1> Search For Movie </h1>
+
+<form action="/results" method="GET">
+    <input type="text" name="search_term" placeholder="search term">
+    <input type="submit">
+</form>
+
+<!-- this form sends a post request to /addfavorite -->
+
+<form action="/addfavorite" method="POST">
+    <input type="text" name="newfavorite" placeholder="title">
+    <button> Add to Favorites </button>
+</form>

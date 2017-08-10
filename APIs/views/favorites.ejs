@@ -1,0 +1,15 @@
+<h1> List of Favorites </h1>
+
+<% favorites.forEach(function(title){ %>
+    <li> <%= title %> </li>
+<% }); %>
+
+<!-- this form sends a post request to /addfavorite -->
+
+<form action="/addfavorite" method="POST">
+    <input type="text" name="newfavorite" placeholder="title">
+    <button> Add to Favorites </button>
+</form>
+
+<!-- add back button -->
+<a href="/search"> Back to Search </a>
