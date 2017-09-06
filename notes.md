@@ -42,3 +42,6 @@ app.set("view engine", "ejs");
 * response.statusCode == 200 --> standard response
 * // turns into JSON object
 *  var parsedData = JSON.parse(body);
+*  
+
+* seven RESTful routes

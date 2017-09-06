@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+	<link rel="stylesheet" type="text/css" href="tests.css">
+</head>
+
+<body>
+
+
+<ul>
+	<li>Wash Cat</li>
+	<li>Feed Cat</li>
+	<li>Feed Cat to Dog</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+<h1><span id="p1-display">0</span> to <span id="p2-display">0</span></h1>
+
+<p> Playing to: <span> 5 </span></p>
+
+<input type="number">
+<button id="p1">Player One </button>
+<button id="p2">Player Two </button>
+<button id="p3">Reset </button>
+
+<script type="text/javascript" src="tests.js"></script>
+
+
+
+
+
+
+
+
+<h1>Login</h1>
+
+<form>
+
+	<div>
+	<label for="username">First Name: </label>
+	<input id="username" name="username" type="text" placeholder="John" required>
+	<label for="lastname">Last Name: </label>
+	<input id="lastname" name="lastname" type="text" placeholder="Smith"required>
+	</div>
+
+	<div>
+	<label for="male">Male: </label>
+	<input name="gender" id="male" type="radio" value="m">
+	<label for="female">Female: </label>
+	<input name="gender" id="female" type="radio" value="f">
+	<label for="other">Other: </label>
+	<input name="gender" id="other" type="radio" value="o">
+	</div>
+
+	<div>
+	<label for="email">Email: </label>
+	<input name="email" id="email" placeholder="your email" type="email"required>
+	<label for="password">Password: </label>
+	<input name="password" id="password" type="password" pattern=".{5,10}" placeholder="between 6 and 10 characters" required title="must be b/t 5 and 10 characters">
+	</div>
+
+	<div> Birthday:
+	<select name="month">
+		<option value="May">May</option>
+		<option value="other">Other</option>
+	</select>
+	<select name="day">
+		<option value ="10">10</option>
+		<option value="20">20</option>
+	</select>
+	<select name = "year">
+	<option value=2000>2000 </option>
+	</select>
+	</div>
+
+	<label for="terms_agree"> I agree to the <a href="https://google.com"> Terms and Conditions </a>
+	<input name="terms_agree" id="terms_agree" type="checkbox" required>
+
+	<button>Submit</button>
+</form>
+
+<br>
+
+<button>Login</button>
+
+
+<textarea name="textfield" rows="10" cols="5"></textarea>
+
+<button>Go!</button>
+
+</body>
+
+</html>
+
+
+
+
